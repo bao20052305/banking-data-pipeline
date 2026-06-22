@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: banking_project
+    database: BANKING
+    schema: RAW
+
+    tables:
+      - name: cards_data
+      - name: mcc_codes
+      - name: transactions_data
+      - name: users_data

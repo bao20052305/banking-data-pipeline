@@ -1,0 +1,42 @@
+
+version: 2
+
+models:
+  - name: staging_cards_data
+    description: "A staging model for cards_data source table"
+    columns:
+      - name: card_id
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+
+  - name: staging_mcc_codes
+    description: "A staging model for mcc_codes source table"
+    columns:
+      - name: mcc_id
+        description: "The MCC code"
+        data_tests:
+          - unique
+          - not_null
+      - name: description
+        description: "The description of the MCC code"
+        data_tests:
+          - not_null
+
+  - name: staging_transactions_data
+    description: "A staging model for transactions_data source table"
+    columns:
+      - name: transaction_id
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+  - name: staging_users_data
+    description: "A staging model for users_data source table"
+    columns:
+      - name: client_id
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
