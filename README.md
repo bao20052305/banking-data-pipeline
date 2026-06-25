@@ -28,17 +28,20 @@ This project uses banking data stored in the `raw-data/` folder. The dataset con
 
 The warehouse follows a **Star Schema** design to support analytical reporting and business intelligence workloads.
 
-### Star Schema
-The warehouse follows a **Star Schema** design to support analytical reporting and business intelligence workloads.
-                  DimCustomer
-                         |
-                         |
-DimDate ---- FactTransaction ---- DimCard
-                         |
-                         |
-                    DimMerchant
-                         |
-                         |
-                      DimMCC
+### Fact Table
+The warehouse follows a **Star Schema** design consisting of one fact table and five dimension tables:
+
+- **FactTransaction**
+- **DimCustomer**
+- **DimCard**
+- **DimMerchant**
+- **DimMCC**
+- **DimDate**
+    
+## Power BI Dashboard
+
+### Customer Analysis
+![Dashboard Overview](images/dashboard_overview.png)
 
 
+![Customer Analysis](images/pages2.jpg)
