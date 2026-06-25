@@ -44,4 +44,4 @@ The warehouse follows a **Star Schema** design consisting of one fact table and 
 ![Dashboard Overview](images/customer_overall.jpg)
 
 
-![Customer Analysis](images/pages2.jpg)
+![Customer Analysis](images/page2.jpg)
