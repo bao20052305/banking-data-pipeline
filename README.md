@@ -41,7 +41,7 @@ The warehouse follows a **Star Schema** design consisting of one fact table and 
 ## Power BI Dashboard
 
 ### Customer Analysis
-![Dashboard Overview](images/dashboard_overview.png)
+![Dashboard Overview](images/customer_overall.jpg)
 
 
 ![Customer Analysis](images/pages2.jpg)
